@@ -18,13 +18,18 @@ namespace MVCDemo.Controllers
             return View(p);
         }
 
+        public IActionResult Create()
+        {
+            return View();
+        }
+
         [HttpPost]
-        //public IActionResult Create(int id,string name,int size,decimal price,bool Isglutenfreee)
         public IActionResult Create(Pizza p)
         {
             PizzaService.Add(p);
             return RedirectToAction("List");
         }
+
         public IActionResult List()
         {
             List<Pizza> pizzas = PizzaService.GetAll();
