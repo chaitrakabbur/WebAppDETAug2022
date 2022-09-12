@@ -13,8 +13,6 @@ namespace MVCDemo.Servics
                     new Friend { FriendId = 1, FriendName = "Neha", Place="Banglore" },
                     new Friend { FriendId = 2, FriendName = "Reema Gowda", Place="Hubli" },
                     new Friend {FriendId = 3, FriendName = "Seema", Place="Dharwad" },
-                    new Friend {FriendId = 3, FriendName = "Ammu", Place="Honnavar" },
-                    new Friend {FriendId = 3, FriendName = "Nancy", Place="Nelamagla" }
                 };
         }
 

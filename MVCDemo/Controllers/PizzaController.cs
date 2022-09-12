@@ -12,7 +12,7 @@ namespace MVCDemo.Controllers
             return View(pizzas);
         }
 
-        public IActionResult Detail(int id)
+        public IActionResult Details(int id)
         {
             Pizza p = PizzaService.Get(id);
             return View(p);
