@@ -1,4 +1,4 @@
-﻿namespace WebAppDETAug2022.Models
+﻿namespace APIDemo.Models
 {
     public class Ticket
     {
@@ -10,4 +10,3 @@
 
     }
 }
-

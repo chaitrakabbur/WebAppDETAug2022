@@ -1,7 +1,5 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using WebAppDETAug2022.Service;
-using WebAppDETAug2022.Services;
 
 namespace WebAppDETAug2022.Pages
 {
