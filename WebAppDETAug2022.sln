@@ -13,11 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoPizza", "ContosoPizz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAPIClient", "ConsoleAPIClient\ConsoleAPIClient.csproj", "{B3F8FF83-A8F3-4A61-A665-D58F51D28D04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountNS", "BankAcc\BankAccountNS.csproj", "{DDA6C927-350D-4B51-82D0-FC7578497C5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankAccountNS", "BankAcc\BankAccountNS.csproj", "{DDA6C927-350D-4B51-82D0-FC7578497C5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankTests", "BankTests\BankTests.csproj", "{19DA60D5-2B16-4140-B306-A817B9D1AAE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankTests", "BankTests\BankTests.csproj", "{19DA60D5-2B16-4140-B306-A817B9D1AAE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstUnitTests", "MyFirstUnitTest\MyFirstUnitTests.csproj", "{FDC8EEB8-D33F-4376-87CD-1D8EFA604EDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstUnitTests", "MyFirstUnitTest\MyFirstUnitTests.csproj", "{FDC8EEB8-D33F-4376-87CD-1D8EFA604EDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDDDemo", "TDDDemo\TDDDemo.csproj", "{A09D7929-2E7E-4EEF-92C0-912661830BCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{4FED0E01-76DC-46FD-A07F-3D2C29CF8DC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libraryAPI.Test", "libraryAPI.Test\libraryAPI.Test.csproj", "{691D63EC-B97E-4B1A-9335-7EC34649BCF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{FDC8EEB8-D33F-4376-87CD-1D8EFA604EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDC8EEB8-D33F-4376-87CD-1D8EFA604EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDC8EEB8-D33F-4376-87CD-1D8EFA604EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09D7929-2E7E-4EEF-92C0-912661830BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09D7929-2E7E-4EEF-92C0-912661830BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09D7929-2E7E-4EEF-92C0-912661830BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09D7929-2E7E-4EEF-92C0-912661830BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FED0E01-76DC-46FD-A07F-3D2C29CF8DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FED0E01-76DC-46FD-A07F-3D2C29CF8DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FED0E01-76DC-46FD-A07F-3D2C29CF8DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FED0E01-76DC-46FD-A07F-3D2C29CF8DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691D63EC-B97E-4B1A-9335-7EC34649BCF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691D63EC-B97E-4B1A-9335-7EC34649BCF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691D63EC-B97E-4B1A-9335-7EC34649BCF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691D63EC-B97E-4B1A-9335-7EC34649BCF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
